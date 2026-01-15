@@ -13,4 +13,11 @@ public class request_region {
                 .get(endPoint_apiCol.region_general);
 
     }
+    public static Response getRegionColombia(Object id_region){
+        return given()
+                .log().all()
+                .when()
+                .get(endPoint_apiCol.region_general+"/"+ id_region);
+
+    }
 }

@@ -23,4 +23,16 @@ public class test_apiCol_general extends baseconfigapi_col{
         assertion_apicol.assertStatus200(response);
         assertion_apicol.assertContentBodyArray(response,"name","Orinoquía");
     }
+    @Test
+    public void test_regionOneColombia(){
+        String id_region = "2";
+        Response response = request_region.getRegionColombia(id_region);
+        response.body().prettyPrint();
+        assertion_apicol.assertJson(response);
+        assertion_apicol.assertStatus200(response);
+        assertion_apicol.assertContentBody(response,"name","Pacífico");
+    }
+
+
+
 }
