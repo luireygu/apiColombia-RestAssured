@@ -44,6 +44,8 @@ Las pruebas se realizan sobre APIs públicas (por ejemplo, APIs de información 
 
 ---
 
-👤 Autor Luis Reyes QA Automation Engineer
+👤 Autor   
+Luis Reyes QA Functional & Automation Engineer   
+GitHub: https://github.com/luireygu
 
 💬 Este proyecto fue desarrollado como ejercicio práctico para fortalecer habilidades en automatización de pruebas API y buenas prácticas de diseño.
